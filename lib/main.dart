@@ -17,6 +17,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_udacity_course/lesson1/exercise_1/hello_rectangle.dart';
 import 'package:flutter_udacity_course/lesson1/exercise_2/category.dart';
+import 'package:flutter_udacity_course/lesson1/exercise_3/category_list.dart';
 
 const _categoryName = 'Cake';
 const _categoryIcon = Icons.cake;
@@ -39,6 +40,7 @@ void main() {
   );*/
 
   // Lesson-1; Exercise-2
+  // Lesson-1; Exercise-3
   runApp(UnitConverterApp());
 }
 
@@ -46,7 +48,7 @@ void main() {
 ///
 /// This widget is the root of our application.
 /// Currently, we just show one widget in our app.
-class UnitConverterApp extends StatelessWidget {
+/*class UnitConverterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -62,6 +64,21 @@ class UnitConverterApp extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}*/
+
+/// Lesson-1; Exercise-3
+/// This widget is the root of our application.
+///
+/// The first screen we see is a list of [Category].
+class UnitConverterApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Unit Converter',
+      home: CategoryList(),
     );
   }
 }
