@@ -15,7 +15,8 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:flutter_udacity_course/category.dart';
+import 'package:flutter_udacity_course/lesson1/exercise_1/hello_rectangle.dart';
+import 'package:flutter_udacity_course/lesson1/exercise_2/category.dart';
 
 const _categoryName = 'Cake';
 const _categoryIcon = Icons.cake;
@@ -23,9 +24,26 @@ const _categoryColor = Colors.green;
 
 /// The function that is called when main.dart is run.
 void main() {
+  // Lesson-1; Exercise-1
+  /*runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Hello Rectangle',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Hello Rectangle'),
+        ),
+        body: HelloRectangle(),
+      ),
+    ),
+  );*/
+
+  // Lesson-1; Exercise-2
   runApp(UnitConverterApp());
 }
 
+/// Lesson-1; Exercise-2
+///
 /// This widget is the root of our application.
 /// Currently, we just show one widget in our app.
 class UnitConverterApp extends StatelessWidget {
