@@ -26,7 +26,10 @@ import 'package:flutter/material.dart';
 //import 'package:flutter_udacity_course/lesson1/exercise_3/category_list.dart';
 
 // Lesson-1; Exercise-4
-import 'package:flutter_udacity_course/lesson1/exercise_4/category_list.dart';
+//import 'package:flutter_udacity_course/lesson1/exercise_4/category_list.dart';
+
+// Lesson-1; Exercise-5
+import 'package:flutter_udacity_course/lesson1/exercise_5/category_list.dart';
 
 // Lesson-1; Exercise-2
 /*const _categoryName = 'Cake';
@@ -52,6 +55,7 @@ void main() {
   // Lesson-1; Exercise-2
   // Lesson-1; Exercise-3
   // Lesson-1; Exercise-4
+  // Lesson-1; Exercise-5
   runApp(UnitConverterApp());
 }
 
@@ -95,6 +99,22 @@ void main() {
 }*/
 
 /// Lesson-1; Exercise-4
+/// This widget is the root of our application.
+///
+/// The first screen we see is a list [Categories], each of which
+/// has a list of [Unit]s.
+/*class UnitConverterApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Unit Converter',
+      home: CategoryList(),
+    );
+  }
+}*/
+
+/// Lesson-1; Exercise-5
 /// This widget is the root of our application.
 ///
 /// The first screen we see is a list [Categories], each of which
