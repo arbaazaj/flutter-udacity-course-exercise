@@ -83,42 +83,17 @@ void main() {
   }
 }*/
 
-/// Lesson-1; Exercise-3
+// Lesson-1; Exercise-3
 /// This widget is the root of our application.
 ///
 /// The first screen we see is a list of [Category].
-/*class UnitConverterApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Unit Converter',
-      home: CategoryList(),
-    );
-  }
-}*/
-
-/// Lesson-1; Exercise-4
+///
+// Lesson-1; Exercise-4
+// Lesson-1; Exercise-5
 /// This widget is the root of our application.
 ///
 /// The first screen we see is a list [Categories], each of which
-/// has a list of [Unit]s.
-/*class UnitConverterApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Unit Converter',
-      home: CategoryList(),
-    );
-  }
-}*/
-
-/// Lesson-1; Exercise-5
-/// This widget is the root of our application.
-///
-/// The first screen we see is a list [Categories], each of which
-/// has a list of [Unit]s.
+/// has a list of mock [Unit]s.
 class UnitConverterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
