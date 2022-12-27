@@ -51,11 +51,11 @@ class ConverterRoute extends StatelessWidget {
           children: <Widget>[
             Text(
               unit.name,
-              style: Theme.of(context).textTheme.headline,
+              style: Theme.of(context).textTheme.headline1,
             ),
             Text(
               'Conversion: ${unit.conversion}',
-              style: Theme.of(context).textTheme.subhead,
+              style: Theme.of(context).textTheme.subtitle1,
             ),
           ],
         ),
