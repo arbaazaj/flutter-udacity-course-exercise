@@ -56,7 +56,7 @@ class _ConverterRouteState extends State<ConverterRoute> {
           children: <Widget>[
             Text(
               unit.name,
-              style: Theme.of(context).textTheme.headline1,
+              style: Theme.of(context).textTheme.headline6,
             ),
             Text(
               'Conversion: ${unit.conversion}',
